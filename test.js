@@ -1,0 +1,11 @@
+const rays = [];
+let start = { x: 0, y: 1 };
+let end = { x: 0, y: 10 };
+rays.push([start, end]);
+start = { x: 2, y: 22 };
+end = { x: 3, y: 33 };
+rays.push([start, end]);
+console.log(rays);
+console.log(rays[0]);
+console.log(rays[0][0]);
+console.log(rays[0][0].x);
